@@ -1,0 +1,695 @@
+/* max-width 1200 - container 960 = starts on 6 string */
+/* max-width 992 - container 720 = starts on 153 string */
+/* max-width 768 - container 540 = starts on 346 string */
+/* max-width 576 - container 320 = starts on 443 string */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: -0.3em;
+  }
+
+  .logo img {
+    padding: 0 0 0 1.5em;
+    margin-top: 1em;
+  }
+  .logo p {
+    font-size: 0.5rem;
+    margin-left: 0.3em;
+  }
+  .button {
+    font-size: 0.8rem;
+    font-weight: 300;
+    height: 3em;
+    width: 12em;
+    padding-top: 0.7em;
+  }
+  hr {
+    width: 50px;
+  }
+  .nav_menu {
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+  .menu li a {
+    font-size: 0.8rem;
+    margin-right: 1em;
+  }
+  .menu li a:hover {
+    color: #808080;
+    transition: all 0.3 ease;
+    outline: none;
+    border: none;
+  }
+
+  .Service {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  .visible-xs {
+    display: none;
+    margin-left: 9.5em;
+    border: 1px solid #000000;
+    color: #000000;
+    width: 150px;
+  }
+
+  .visible-xs a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Asap;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .Lim_img {
+    display: block;
+  }
+
+  .img_media_Lim {
+    display: none;
+  }
+
+  .Limara_text p {
+    font-size: 0.8rem;
+    padding-left: 1em;
+  }
+  .Limara_text h2 {
+    font-size: 1.1rem;
+    padding-left: 1em;
+  }
+
+  .Limara_text h4 {
+    padding-left: 1em;
+  }
+
+  .eigths_screen {
+    margin-bottom: 5em;
+  }
+  .contacts {
+    margin-bottom: -3em;
+  }
+  .Say_Hello {
+    margin-top: 0;
+  }
+  .myForm input {
+    font-size: 0.8rem;
+    width: 300px;
+    height: 37px;
+    background-color: #ffffff;
+    padding-left: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: 0.5em;
+  }
+  .myForm textarea {
+    height: 157px;
+  }
+
+  .button_send {
+    display: none;
+  }
+
+  .myForm_button_send {
+    display: block;
+    padding: 0.5em;
+  }
+
+  .myForm_button_send img {
+    width: 15px;
+    height: 12px;
+    margin-bottom: 0.3em;
+  }
+
+  .Soc {
+    padding: 0em;
+  }
+
+  .scrollup {
+    margin-right: 3em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: -1.2em;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .logo img {
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+  }
+  .logo p {
+    font-size: 0.5rem;
+    margin-left: 0.3em;
+  }
+
+  .button {
+    font-size: 0.5rem;
+    font-weight: 300;
+    height: 3em;
+    width: 15em;
+    padding-top: 0.7em;
+  }
+
+  hr {
+    width: 50px;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  #dropdownMenuButton {
+    display: block;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding-bottom: 1em;
+    position: absolute;
+    width: 7em;
+    height: 2.5em;
+  }
+
+  .dropdown-menu {
+    left: 1em;
+    padding-top: 1em;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .Service {
+    margin-top: 1em;
+    /* text-align: left; */
+  }
+
+  .Luis__oenrique p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .therd_screen {
+    margin-top: -5em;
+  }
+  .More__about h2,
+  .More__about h3 {
+    text-align: center;
+  }
+
+  .Back__img {
+    margin-left: 0.2em;
+  }
+  .Portfolio2 img,
+  .Portfolio3 img {
+    width: 100%;
+  }
+  .six_screen {
+    padding-bottom: 2em;
+  }
+
+  .six_screen {
+    padding-bottom: 2em;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .visible-xs {
+    display: block;
+  }
+
+  .Lim_img {
+    display: none;
+  }
+  .img_media_Lim {
+    display: block;
+  }
+
+  .carousel-item img {
+    margin: 2em 0 2em 10em;
+    width: 159px;
+    height: 145px;
+  }
+
+  .Limara_text p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .Limara_text h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin: 1em 0 -0.1em -0.7em;
+  }
+
+  .visible-xs {
+    display: block;
+    margin-left: 10em;
+    margin-bottom: 6em;
+    width: 150px;
+  }
+
+  .eigths_screen {
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    margin-bottom: -3em;
+  }
+  .Say_Hello {
+    margin-top: 0;
+  }
+
+  .myForm input {
+    font-size: 0.8rem;
+    width: 222px;
+    height: 37px;
+    background-color: #ffffff;
+    padding-left: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+  }
+  .myForm textarea {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 107px;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+  }
+
+  .button_send {
+    display: none;
+  }
+
+  .myForm_button_send {
+    display: block;
+    padding: 0.5em;
+  }
+
+  .myForm_button_send img {
+    width: 10px;
+    height: 8px;
+    margin-bottom: 0.3em;
+  }
+
+  .scrollup {
+    margin-right: -1.5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: -0.3em;
+  }
+
+  .logo img {
+    padding-left: 0.5em;
+    padding-top: 0;
+  }
+  .logo p {
+    font-size: 0.5rem;
+    margin-left: 0.3em;
+  }
+
+  .button {
+    font-size: 0.5rem;
+    font-weight: 300;
+    height: 3em;
+    width: 15em;
+    padding-top: 0.7em;
+  }
+  hr {
+    width: 50px;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  #dropdownMenuButton {
+    font-size: 0.8rem;
+    padding-bottom: 1em;
+    position: absolute;
+    width: 7em;
+    height: 2.5em;
+    margin: 0 0 0 4.5em;
+  }
+
+  .dropdown-menu {
+    padding-top: 1em;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .dropdown-item {
+    margin-left: 2em;
+    border: none;
+    outline: none;
+    background-clip: none;
+  }
+
+  .Luis__oenrique p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .Back__img img {
+    padding: 3em 0 4em 0;
+  }
+
+  .carousel-item img {
+    margin: 2em 0 2em 8em;
+    width: 159px;
+    height: 145px;
+  }
+  .visible-xs {
+    display: block;
+    margin-left: 8em;
+    border: 1px solid #000000;
+    color: #000000;
+    width: 150px;
+  }
+
+  .visible-xs a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Asap;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .myForm input {
+    font-size: 0.8rem;
+    width: 160px;
+    height: 37px;
+    background-color: #ffffff;
+    padding-left: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 320px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: -0.3em;
+  }
+
+  .button {
+    font-size: 0.5rem;
+    font-weight: 300;
+    padding-top: 0.8em;
+    height: 3em;
+    width: 15em;
+  }
+
+  .therd_screen {
+    margin-top: -6em;
+    margin-bottom: 0;
+  }
+
+  .More p {
+    text-align: justify;
+    width: 100%;
+    padding: 0 0.3em 0 0.3em;
+  }
+
+  hr {
+    width: 50px;
+  }
+
+  .logo img {
+    padding-left: 0.5em;
+    padding-top: 0;
+  }
+  .logo p {
+    font-size: 0.5rem;
+    margin-left: 0.3em;
+  }
+
+  .Luis__img {
+    margin-top: 1.5em;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+  #dropdownMenuButton {
+    display: block;
+    justify-content: center;
+    font-size: 0.7rem;
+    position: absolute;
+    width: 5.5em;
+    height: 1.8em;
+    line-height: 1em;
+    border: none;
+    outline: none;
+  }
+
+  .dropdown-menu {
+    padding-left: 0;
+    padding-top: 1em;
+    background-color: transparent;
+    font-size: 0.6rem;
+    color: #000000;
+    font-weight: 700;
+  }
+
+  .dropdown-item {
+    margin-left: 3em;
+    border: none;
+    outline: none;
+    background-clip: none;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .Lim_img {
+    display: none;
+  }
+
+  .img_media_Lim {
+    display: block;
+  }
+
+  .carousel-item img {
+    margin: 2em 0 2em 2.6em;
+    width: 159px;
+    height: 145px;
+  }
+
+  .Limara_text p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-transform: uppercase;
+    /* margin-left: -4em; */
+  }
+
+  .Limara_text h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin: 1em 0 -0.1em 0em
+  }
+
+  .visible-xs {
+    display: block;
+  }
+  .visible-xs {
+    margin: 0 0 6em 3em;
+    width: 150px;
+    border: 1px solid #000000;
+    color: #000000;
+  }
+
+  .visible-xs a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Asap;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .visible-xs:hover {
+    background-color: grey;
+  }
+
+  .therd_screen {
+    padding-bottom: 1em;
+  }
+  .Back__img img {
+    margin: 1.5em 0 0 -1em;
+  }
+  .fourth_screen {
+    padding-bottom: 1em;
+  }
+  .Research a,
+  .Looks a {
+    outline: none;
+    border: none;
+  }
+
+  .Service {
+    margin-top: 3em;
+  }
+
+  .More__about img {
+    margin-left: 5em;
+  }
+  .Portfolio2 img,
+  .Portfolio3 img {
+    width: 320px;
+  }
+
+  .Testimonials {
+    margin-top: 1em;
+  }
+
+  .eigths_screen {
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    margin-bottom: -3em;
+  }
+
+  .myForm input {
+    font-size: 0.8rem;
+    width: 180px;
+    height: 37px;
+    background-color: #ffffff;
+    padding-left: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+  }
+  .myForm textarea {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 107px;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+  }
+
+  .button_send {
+    display: none;
+  }
+
+  .myForm_button_send {
+    display: block;
+    margin-left: 3.8em;
+    padding: 0.5em;
+  }
+
+  .myForm_button_send img {
+    width: 10px;
+    height: 8px;
+    margin-bottom: 0.3em;
+  }
+
+  .Soc {
+    margin-left: 3em;
+  }
+
+  .all {
+    margin-left: 3em;
+  }
+
+  .scrollup {
+    margin-right: -1em;
+    bottom: 2.5em;
+    padding-top: 0.2em;
+    font-size: 1rem;
+    width: 34px;
+    height: 34px;
+  }
+}

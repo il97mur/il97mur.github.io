@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:500,700&display=swap");
+
+html,
+body {
+  margin: 0 auto;
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+}
+
+h1 {
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 4.62rem;
+  font-weight: 500;
+  line-height: 4.18rem;
+  padding-top: 1em;
+}
+
+h2 {
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 2.87rem;
+  font-weight: 700;
+  line-height: 3.06rem;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  opacity: 0.8;
+  letter-spacing: 0.34rem;
+  text-align: center;
+}
+
+h3 {
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 1.37rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  text-transform: uppercase;
+  letter-spacing: 0.55rem;
+  margin-bottom: -0.5em;
+  text-align: center;
+}
+
+hr {
+  width: 50px;
+  height: 2px;
+  background: #000000;
+  margin-top: -0.1em;
+}
+
+.button {
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  height: 3.1em;
+  width: 12em;
+  margin-right: 1.7em;
+  margin-top: 1.5em;
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: transparent;
+  outline: 2px solid #adadad;
+  transition: all 0.2s ease;
+}
+
+.button a {
+  color: #4d4d4d;
+  text-decoration: none;
+  outline: none;
+  line-height: 2.5rem;
+}
+
+.row_images {
+  width: 100%;
+}
+
+/* FIRST SCREEN LOGO AND MENU */
+
+.first_screen {
+  background: url(img/bg_element_.png);
+  width: 100%;
+}
+.second_screen {
+  background: url(img/bg_element_.png);
+  width: 100%;
+  padding-bottom: 1em;
+}
+.logo img {
+  padding-left: 1.9em;
+  padding-top: 2em;
+}
+.logo h1 {
+  text-align: left;
+  color: #000000;
+  font-family: Lato;
+  font-size: 0.87rem;
+  font-weight: 300;
+  line-height: 0.99rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  margin: 0;
+  padding-top: 0.5em;
+}
+.logo p {
+  color: #000000;
+  font-family: Lato;
+  font-size: 0.25rem;
+  font-weight: 400;
+  line-height: 0.99rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  margin-left: 3em;
+}
+.nav_menu {
+  /* padding-left: 0; */
+  margin-top: -5em;
+}
+
+.menu li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  outline: none;
+
+}
+.menu li a:hover {
+  color: #808080;
+}
+.menu li a {
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  margin-right: 1.2em;
+  transition: all 0.3 ease;
+}
+
+.dropdown-menu {
+  display: none;
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  margin-left: -1em;
+  list-style-type: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#dropdownMenuButton {
+  display: none;
+  position: absolute;
+  top: 1em;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  outline: none;
+}
+
+/* SECOND SCREEN KNOW */
+
+.second_screen {
+  /*height: 750px;*/
+  width: 100%;
+}
+
+.Luis__oenrique p {
+  opacity: 0.54;
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 1.37rem;
+  font-weight: 500;
+  line-height: 4.18rem;
+}
+
+/* THERD SCREEN MORE */
+
+.therd_screen {
+  /* height: 680px; */
+  height: auto;
+  width: 100%;
+  padding-bottom: 7.81em;
+}
+.More__about {
+  margin-top: 8em;
+}
+
+.More_about p {
+  color: #4d4d4d;
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.62rem;
+}
+
+.About,
+.More {
+  text-align: left;
+}
+
+.Back__img img {
+  margin-top: 7em;
+}
+
+/* FOURTH SCREEN SERVICES*/
+
+.fourth_screen {
+  /* height: 695px; */
+  background-color: #f6f6f6;
+}
+
+.Service {
+  margin-top: 3.5em;
+}
+
+.Service img {
+  display: block;
+  width: 100%;
+  height: 5px;
+  /* padding: 0px 30%; */
+  margin: 0px 0px 15px 0px;
+}
+
+.service__img {
+  align-self: flex-start;
+}
+
+.Research {
+  margin-top: 1em;
+  padding-bottom: 4.5em;
+}
+
+/* FIFTH SCREEN Skills*/
+
+.fifth_screen {
+  /* height: 770px; */
+  height: auto;
+  padding-bottom: 5.12em;
+}
+.Skills {
+  margin-bottom: 2em;
+}
+
+/* SIX SCREEN PORTFOLIO */
+
+.six_screen {
+  /* height: 1098px; */
+  height: auto;
+  padding-bottom: 6.38em;
+  background-color: #f6f6f6;
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+.Portfolio2,
+.Portfolio3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.Portfolio2 img {
+  margin: 0px 0px 15px 0px;
+}
+
+.Portfolio4 {
+  margin-right: 0;
+  margin-left: 0;
+}
+/* SEVENS SCREEN TESTIMONIALS*/
+
+.sevens_screen {
+  /* height: 715px; */
+  height: auto;
+  padding-bottom: 6em;
+}
+.Testimonials {
+  margin-top: 4em;
+}
+
+.carousel-item img {
+  margin-top: -10.5em;
+  width: 159px;
+  height: 145px;
+  margin-bottom: 7em;
+}
+
+.img_media_Lim {
+  display: none;
+}
+
+#carousel_Limary {
+  border: 1px solid #000000;
+}
+.visible-xs {
+  display: none;
+}
+.Limara_text p {
+  opacity: 0.6;
+  color: #212121;
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.62rem;
+  text-transform: uppercase;
+}
+.Limara_text h2 {
+  opacity: 0.9;
+  color: #212121;
+  font-family: Asap;
+  font-size: 1.87rem;
+  font-weight: 500;
+  line-height: 49px;
+  text-transform: uppercase;
+  margin-bottom: -0.1em;
+  margin-top: 2em;
+  text-align-last: left;
+}
+
+.Limara_text h4 {
+  opacity: 0.9;
+  color: #212121;
+  font-family: Asap;
+  font-size: 0.75rem;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: -1.5em;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+}
+
+li {
+  border: 1px solid #000000;
+  transition: 0.2s;
+}
+
+.Client {
+  padding: 3em 0 0 0;
+}
+.Client .Hands__img {
+  margin-top: -1.2em;
+}
+
+/* EIGTHS SCREEN CLIENT */
+
+.eigths_screen {
+  /* height: 300px; */
+  margin-bottom: 10em;
+  background-color: #f6f6f6;
+  height: auto;
+  padding-bottom: 5.4em;
+}
+
+/*NINGTH SCREEN SAY HELLO*/
+
+.ningth_screen {
+  /* height: 785px; */
+  height: auto;
+  background: url(img/contact_bg.png) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 0.6em;
+}
+.Say_Hello {
+  margin-top: 6em;
+}
+
+.Say_Hello h3 {
+  color: #ffffff;
+  font-family: "Nirmala UI";
+  font-size: 1.37rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  text-transform: uppercase;
+  letter-spacing: 8.91px;
+}
+
+.Say_Hello h2 {
+  opacity: 0.9;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.34rem;
+}
+.Say_Hello hr {
+  background: #ffffff;
+}
+
+.myForm input {
+  color: #212121;
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  letter-spacing: 0.96px;
+  width: 362px;
+  height: 57px;
+  background-color: #ffffff;
+  padding-left: 1em;
+  border: none;
+  outline: none;
+  /* margin-right: 2px; */
+
+}
+
+.contacts {
+  margin-bottom: -2em;
+}
+
+.button_send img {
+  vertical-align: auto;
+}
+
+.myForm textarea {
+  color: #212121;
+  font-family: Asap;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  letter-spacing: 0.06rem;
+  background-color: #ffffff;
+  /* width: 768px; */
+  height: 207px;
+  margin-top: 2em;
+  border: none;
+  outline: none;
+}
+
+.myForm_button_send {
+  display: none;
+}
+
+.all p {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 4.18rem;
+  letter-spacing: 0.06rem;
+  margin-left: -2em;
+}
+
+.Soc {
+  margin-top: 1.3em;
+}
+
+.row_send {
+  margin-top: 8em;
+}
+
+.scrollup {
+  position: fixed;
+  color: #000000;
+  background-color: #ffffff;
+  right: 2em;
+  bottom: 8em;
+  padding-top: 0.2em;
+  font-size: 1.25rem;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+.scrollup:hover {
+  border: 1px solid #000;
+}
+
+@import url("bootstrap_media");
