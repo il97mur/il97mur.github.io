@@ -30,7 +30,7 @@
     $email = 'picnmix@mail.com';
     $headers = "From: $email\r\nReply-To: $email" . "\r\n" . "MIME-Version: 1.0\r\nContent-type: text/plain; charset=utf-8";
 
-    mail('alik@picnmix.ru', 'Форма обратной связи', $mess, $headers);
+    mail('murzalev_97@mail.ru', 'Форма обратной связи', $mess, $headers);
     header("Refresh:5; index.html");
     echo ('<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
